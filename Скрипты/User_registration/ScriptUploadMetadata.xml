@@ -11,7 +11,14 @@
     <FileEntry Name="User_registration.usr" Filter="4" />
     <FileEntry Name="default.cfg" Filter="4" />
     <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="User_registration.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="ZipCode.dat" Filter="2" />
+    <FileEntry Name="firstName.dat" Filter="2" />
+    <FileEntry Name="password.dat" Filter="2" />
+    <FileEntry Name="Adress.dat" Filter="2" />
+    <FileEntry Name="lastName.dat" Filter="2" />
+    <FileEntry Name="username.dat" Filter="2" />
     <FileEntry Name="combined_User_registration.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
@@ -33,6 +40,7 @@
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="User_registration.c.pickle" Filter="1" />
     <FileEntry Name="User_registration.ci" Filter="1" />
+    <FileEntry Name="User_registration.prm.bak" Filter="1" />
     <FileEntry Name="User_registration.sdf" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
