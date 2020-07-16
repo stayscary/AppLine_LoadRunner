@@ -7,6 +7,6 @@ Accept-Language: en-US,en;q=0.5
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1594913557
-Content-Length: 149
+Cookie: MSO=SID&1594941801; MTUserInfo=firstName&%20Jenya&address2&485348&username&Jena&hash&33&lastName&Kras%0A&address1&Santo%20Domingo&creditCard&&expDate&%0A
+Content-Length: 144
 

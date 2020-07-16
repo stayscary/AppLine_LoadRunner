@@ -22,7 +22,17 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	web_url("welcome.pl", 
+	web_reg_save_param_ex(
+		"ParamName=userSession",
+		"LB/IC=userSession\" value=\"",
+		"RB/IC=\"/>",
+		"Ordinal=1",
+		LAST);
+
+	web_reg_find("Text= A Session ID has been created and loaded into",
+		LAST);
+	
+	web_url("welcome.pl",
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -31,43 +41,47 @@ Action()
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		LAST);
-
+	
+	lr_end_transaction("open_site",LR_AUTO);
+	
 	web_set_sockets_option("SSL_VERSION", "2&3");
 
-	lr_think_time(26);
-
-	lr_end_transaction("open_site",LR_AUTO);
-
-
+	lr_think_time(5);
 
 	lr_start_transaction("Login");
 
-	web_submit_data("login.pl", 
-		"Action=http://localhost:1080/cgi-bin/login.pl", 
-		"Method=POST", 
-		"TargetFrame=body", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home", 
-		"Snapshot=t4.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=userSession", "Value=129194.972620494zztftzzptAtVzzzHDQiHcpHQitcf", ENDITEM, 
-		"Name=username", "Value=jojo", ENDITEM, 
-		"Name=password", "Value=bean", ENDITEM, 
-		"Name=login.x", "Value=51", ENDITEM, 
-		"Name=login.y", "Value=12", ENDITEM, 
-		"Name=JSFormSubmit", "Value=off", ENDITEM, 
+	
+	web_reg_find("Text=User password was correct ",
+		LAST);
+
+	web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value={userSession}", ENDITEM,
+		"Name=username", "Value={username}", ENDITEM,
+		"Name=password", "Value={password}", ENDITEM,
+		"Name=login.x", "Value=51", ENDITEM,
+		"Name=login.y", "Value=12", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
 		LAST);
 
 	lr_end_transaction("Login",LR_AUTO);
 
-
-
-	lr_think_time(14);
+	lr_think_time(5);
 
 	lr_start_transaction("Flights_click");
 
-	web_url("Search Flights Button", 
+	
+	web_reg_find("Text= User has returned to the search page.",
+		LAST);
+
+	web_url("Search Flights Button",
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
 		"TargetFrame=body", 
 		"Resource=0", 
@@ -79,11 +93,15 @@ Action()
 
 	lr_end_transaction("Flights_click",LR_AUTO);
 
-	lr_think_time(25);
+	lr_think_time(5);
 
 	lr_start_transaction("Find_flight");
 
-	web_submit_data("reservations.pl", 
+	
+	web_reg_find("Text=Flight Selections",
+		LAST);
+
+	web_submit_data("reservations.pl",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
 		"TargetFrame=", 
@@ -93,13 +111,13 @@ Action()
 		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
-		"Name=depart", "Value=Denver", ENDITEM, 
-		"Name=departDate", "Value=07/17/2020", ENDITEM, 
-		"Name=arrive", "Value=Portland", ENDITEM, 
-		"Name=returnDate", "Value=07/18/2020", ENDITEM, 
+		"Name=depart", "Value={departCity}", ENDITEM, 
+		"Name=departDate", "Value={departDate}", ENDITEM, 
+		"Name=arrive", "Value={arriveCity}", ENDITEM, 
+		"Name=returnDate", "Value={returnDate}", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
-		"Name=seatPref", "Value=Window", ENDITEM, 
-		"Name=seatType", "Value=Business", ENDITEM, 
+		"Name=seatPref", "Value={seatPref}", ENDITEM, 
+		"Name=seatType", "Value={seatType}", ENDITEM, 
 		"Name=findFlights.x", "Value=51", ENDITEM, 
 		"Name=findFlights.y", "Value=9", ENDITEM, 
 		"Name=.cgifields", "Value=roundtrip", ENDITEM, 
@@ -109,11 +127,15 @@ Action()
 
 	lr_end_transaction("Find_flight",LR_AUTO);
 
-	lr_think_time(14);
+	lr_think_time(5);
 
 	lr_start_transaction("Choose_flight");
 
-	web_submit_data("reservations.pl_2", 
+	
+	web_reg_find("Text=Flight Reservation",
+		LAST);
+
+	web_submit_data("reservations.pl_2",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
 		"TargetFrame=", 
@@ -125,19 +147,23 @@ Action()
 		"Name=outboundFlight", "Value=052;377;07/17/2020", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
-		"Name=seatType", "Value=Business", ENDITEM, 
-		"Name=seatPref", "Value=Window", ENDITEM, 
+		"Name=seatType", "Value={seatType}", ENDITEM, 
+		"Name=seatPref", "Value={seatPref}", ENDITEM, 
 		"Name=reserveFlights.x", "Value=54", ENDITEM, 
 		"Name=reserveFlights.y", "Value=10", ENDITEM, 
 		LAST);
 
 	lr_end_transaction("Choose_flight",LR_AUTO);
 
-	lr_think_time(39);
+	lr_think_time(5);
 
 	lr_start_transaction("Insert_payment_details");
 
-	web_submit_data("reservations.pl_3", 
+	
+	web_reg_find("Text=Reservation Made!",
+		LAST);
+
+	web_submit_data("reservations.pl_3",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
 		"TargetFrame=", 
@@ -146,17 +172,17 @@ Action()
 		"Snapshot=t8.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=firstName", "Value=Jojo", ENDITEM, 
-		"Name=lastName", "Value=Bean", ENDITEM, 
-		"Name=address1", "Value=Moscow", ENDITEM, 
-		"Name=address2", "Value=Moscow", ENDITEM, 
-		"Name=pass1", "Value=Jojo Bean", ENDITEM, 
-		"Name=creditCard", "Value=4444111122223333", ENDITEM, 
-		"Name=expDate", "Value=11/23", ENDITEM, 
+		"Name=firstName", "Value={firstName}", ENDITEM, 
+		"Name=lastName", "Value={lastName}", ENDITEM, 
+		"Name=address1", "Value={Adress}", ENDITEM, 
+		"Name=address2", "Value={ZipCode}", ENDITEM, 
+		"Name=pass1", "Value={firstName} {lastName}", ENDITEM, 
+		"Name=creditCard", "Value={creditCard}", ENDITEM, 
+		"Name=expDate", "Value={expDate}", ENDITEM, 
 		"Name=oldCCOption", "Value=", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
-		"Name=seatType", "Value=Business", ENDITEM, 
-		"Name=seatPref", "Value=Window", ENDITEM, 
+		"Name=seatType", "Value={seatType}", ENDITEM, 
+		"Name=seatPref", "Value={seatPref}", ENDITEM, 
 		"Name=outboundFlight", "Value=052;377;07/17/2020", ENDITEM, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
 		"Name=returnFlight", "Value=", ENDITEM, 
@@ -168,11 +194,15 @@ Action()
 
 	lr_end_transaction("Insert_payment_details",LR_AUTO);
 
-	lr_think_time(24);
+	lr_think_time(5);
 
 	lr_start_transaction("Itenerary_click");
 
-	web_url("Itinerary Button", 
+	
+	web_reg_find("Text= User wants the intineraries.",
+		LAST);
+
+	web_url("Itinerary Button",
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
 		"Resource=0", 
@@ -184,11 +214,15 @@ Action()
 
 	lr_end_transaction("Itenerary_click",LR_AUTO);
 
-	lr_think_time(9);
+	lr_think_time(5);
 
 	lr_start_transaction("Logout");
 
-	web_url("SignOff Button", 
+	
+	web_reg_find("Text= A Session ID has been created and loaded into",
+		LAST);
+
+	web_url("SignOff Button",
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
 		"TargetFrame=body", 
 		"Resource=0", 
