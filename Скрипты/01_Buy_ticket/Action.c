@@ -3,6 +3,7 @@ Action()
 	lr_start_transaction("01_Buy_ticket");
 	
 	lr_start_transaction("open_site");
+	
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
 		"TargetFrame=", 
