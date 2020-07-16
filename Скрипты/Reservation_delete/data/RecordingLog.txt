@@ -1,0 +1,174 @@
+[API Trapper      (3098: 75c)] Recording in 32-bit mode: C:\Program Files (x86)\HPE\LoadRunner\bin\firefox\firefox.exe
+[Network Analyzer (3098: 75c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3098: 75c)] Load Network Traffic Analyzers:
+[Network Analyzer (3098: 75c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3098: 75c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (3098: 75c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3098: 75c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (3098: 75c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (3098: 75c)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3098: 75c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3098: 47c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098: 75c)] Establish Listener @ 127.0.0.1:10165
+[Network Analyzer (3098: 75c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098: 75c)] Request Connection: Remote Server @ 127.0.0.1:10165   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (3098: 75c)] Accept Connection : Service @ 127.0.0.1:10165  ,  Remote Client @ 127.0.0.1:10166
+[Network Analyzer (3098: 47c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (3098: 47c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 34.247.232.119:443   (Service=)  (Sid=  4)  PROXIED!
+[Net An. Warning  (3098:152c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3098:152c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (3098:3a6c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (3098:152c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3098:152c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (3098:3a6c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3098: 47c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (3098: 47c)] "GET /WebTours/"   
+[Network Analyzer (3098: 47c)]   (Sid:  5) Client -> Server @ : 398 bytes (Service=HTTP)
+[Net An. Warning  (3098:152c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (3098: 47c)]   (Sid:  5) Server -> Client : 194 bytes  (Service=HTTP)
+[Net An. Warning  (3098:152c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3098:152c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3098:152c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 64.233.164.136:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 13.33.242.33:443   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (3098: 47c)] "GET /WebTours/header.html"   
+[Network Analyzer (3098: 47c)]   (Sid:  5) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid:  5) Server -> Client : 193 bytes  (Service=HTTP)
+[Web Request      (3098: 47c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (3098: 47c)]   (Sid:  6) Client -> Server @ : 362 bytes (Service=HTTP)
+[Network Analyzer (3098:3a98)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Net An. Error    (3098:2ca4)] SSL_connect(ssl_id = 339745280 = 14401A00) Failed, ctx = 14506830, err = "error", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:04091068:rsa routines:INT_RSA_VERIFY:bad signature
+error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature
+"
+[Net An. Error    (3098:2ca4)]   (Sid:  9) SSL handshake with remote server Failed!
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (3098: 47c)]   (Sid:  6) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (3098:3a98)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (3098: 47c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3098: 47c)]   (Sid:  6) Client -> Server @ : 403 bytes (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (3098: 47c)]   (Sid:  6) Server -> Client : 1751 bytes  (Service=HTTP)
+[Web Request      (3098: 47c)] "GET /WebTours/home.html"   
+[Network Analyzer (3098: 47c)]   (Sid:  7) Client -> Server @ : 499 bytes (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid:  7) Server -> Client : 194 bytes  (Service=HTTP)
+[Web Request      (3098: 47c)] "GET /favicon.ico"   
+[Network Analyzer (3098: 47c)]   (Sid:  6) Client -> Server @ : 328 bytes (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid:  6) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (3098: 47c)] "GET /favicon.ico"   
+[Network Analyzer (3098: 47c)]   (Sid:  6) Client -> Server @ : 328 bytes (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid:  6) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (3098: 47c)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (3098: 47c)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (3098: 47c)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (3098: 47c)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (3098: 47c)]   (Sid: 12) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent 02_Reservation_delete [User action                 ] StartTransactionEvent Login [Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (3098: 47c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (3098: 47c)]   (Sid: 13) Client -> Server @ : 581 bytes (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 13) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3098: 47c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (3098: 47c)]   (Sid: 13) Client -> Server @ : 508 bytes (Service=HTTP)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098: 47c)]   (Sid: 13) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (3098: 47c)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3098: 47c)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (3098: 47c)]   (Sid: 14) Client -> Server @ : 503 bytes (Service=HTTP)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (3098: 47c)]   (Sid: 14) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (3098: 47c)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (3098: 47c)]   (Sid: 14) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent Login [Network Analyzer (3098: 47c)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (3098: 47c)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (3098: 47c)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (3098: 47c)]   (Sid: 18) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Itenerary_click [Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Web Request      (3098: 47c)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (3098: 47c)]   (Sid: 19) Client -> Server @ : 525 bytes (Service=HTTP)
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (3098: 47c)]   (Sid: 19) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3098: 47c)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (3098: 47c)]   (Sid: 19) Client -> Server @ : 530 bytes (Service=HTTP)
+[Web Request      (3098: 47c)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (3098: 47c)]   (Sid: 20) Client -> Server @ : 513 bytes (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 19) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (3098: 47c)]   (Sid: 20) Server -> Client : 2886 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[User action                 ] EndTransactionEvent Itenerary_click [Network Analyzer (3098: 47c)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (3098: 47c)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (3098: 47c)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (3098: 47c)]   (Sid: 22) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Choose_reservation [Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 35.227.210.68:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (3098:1f3c)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (3098: 47c)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer (3098: 47c)]   (Sid: 24) Client -> Server @ : 651 bytes (Service=HTTP)
+[Network Analyzer (3098:1f3c)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3098: 47c)]   (Sid: 24) Server -> Client : 1150 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (3098: 47c)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent Choose_reservation [Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 64.233.164.136:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (3098: 47c)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer (3098:398c)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (3098:398c)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3098: 47c)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (3098: 47c)]   (Sid: 26) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Logouts [Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (3098: 47c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (3098: 47c)]   (Sid: 27) Client -> Server @ : 525 bytes (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 27) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3098: 47c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3098: 47c)]   (Sid: 27) Client -> Server @ : 400 bytes (Service=HTTP)
+[Network Analyzer (3098:152c)] Address lookup for DESKTOP-D16P3PG = 172.17.92.20
+[Network Analyzer (3098: 47c)]   (Sid: 27) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3098:152c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      (3098: 47c)] "GET /WebTours/home.html"   
+[Network Analyzer (3098: 47c)]   (Sid: 28) Client -> Server @ : 496 bytes (Service=HTTP)
+[Network Analyzer (3098: 47c)]   (Sid: 28) Server -> Client : 194 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent Logouts [User action                 ] EndTransactionEvent 02_Reservation_delete [Network Analyzer (3098: 47c)]   (Sid: 27) Connection Terminated (by Server)
+[Network Analyzer (3098: 47c)]   (Sid: 28) Connection Terminated (by Server)

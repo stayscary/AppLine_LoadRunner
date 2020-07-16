@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Никита\Desktop\IBS\VuGen\User_registration
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\никита\desktop\ibs\vugen\user_registration\\logfile.log
+c:\users\никита\desktop\ibs\vugen\user_registration\\combined_User_registration.c
+c:\users\никита\desktop\ibs\vugen\user_registration\\pre_cci.c

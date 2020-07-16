@@ -1,0 +1,28 @@
+Virtual User Script started at: 16.07.2020 18:32:08
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\Никита\Desktop\IBS\VuGen\Buy_ticket_without_check_itenerary\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): Notify: Transaction "04_Buy_ticket_without_check_itenerary" started.
+Action.c(5): Notify: Transaction "open_site" started.
+Action.c(7): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(7): Error -27792: Failed to connect to server "localhost:1080": [10061] Connection refused  	[MsgId: MERR-27792]
+Action.c(7): web_url("WebTours") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(7): Notify: Transaction "open_site" ended with a "Fail" status (Duration: 1.3155 Wasted Time: 0.1336).
+Action.c(7): Notify: Transaction "open_site" has 1 error message(s).
+Action.c(7): Notify: The 1st error message associated with transaction "open_site" is "Error -27792: Failed to connect to server "localhost:1080": [10061] Connection refused"
+Action.c(7): Notify: Transaction "04_Buy_ticket_without_check_itenerary" ended with a "Fail" status (Duration: 1.3944 Wasted Time: 0.1336).
+Action.c(7): Notify: Transaction "04_Buy_ticket_without_check_itenerary" has 1 error message(s).
+Action.c(7): Notify: The 1st error message associated with transaction "04_Buy_ticket_without_check_itenerary" is "Error -27792: Failed to connect to server "localhost:1080": [10061] Connection refused"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Thu, 16 Jul 2020 15:37:00 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&%20Petya&address2&125090&username&Petya&hash&65&lastName&Jojo&address1&Moscow&creditCard&&expDate&; path=/
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

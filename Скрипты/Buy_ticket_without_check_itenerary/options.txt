@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Никита\Desktop\IBS\VuGen\Buy_ticket_without_check_itenerary
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\никита\desktop\ibs\vugen\buy_ticket_without_check_itenerary\\logfile.log
+c:\users\никита\desktop\ibs\vugen\buy_ticket_without_check_itenerary\\combined_Buy_ticket_without_check_itenerary.c
+c:\users\никита\desktop\ibs\vugen\buy_ticket_without_check_itenerary\\pre_cci.c
