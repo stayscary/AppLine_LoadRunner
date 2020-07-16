@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 15 Jul 2020 22:12:41 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000;
+Request-ID: 3f60ac7f372595210196d4c6a554ebe3
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self' chrome-extension://hfdhpmpfpcnbboppkkkblilhbloejijj
+Content-Encoding: gzip
+

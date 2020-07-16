@@ -1,0 +1,11 @@
+[t2]
+FileName1=t2_list.html
+URL1=https://app.epn.bz/offers/list?lang=ru&viewRules=role_user&fields=id,image,link_match,ecpa,cr,confirm,cookieLive,comission&area=all&limit=600
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
