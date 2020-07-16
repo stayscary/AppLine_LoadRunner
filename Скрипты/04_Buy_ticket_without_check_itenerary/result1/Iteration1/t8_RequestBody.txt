@@ -1,4 +1,4 @@
-"firstName=Sasha&lastName=Petrov&address1=London&address2=150625&pass1=Sasha&creditCard=5404+37"
-"54+4739+2363&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outbo"
-"undFlight=022%3B464%3B07%2F17%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFligh"
-"ts.x=54&buyFlights.y=6&.cgifields=saveCC"
+"firstName=Jojo&lastName=Bean&address1=Moscow&address2=125080&pass1=Jojo+Bean&creditCard=222211"
+"1133334444&expDate=12%2F23&oldCCOption=&numPassengers=1&seatType=Business&seatPref=Window&outb"
+"oundFlight=022%3B464%3B07%2F17%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlig"
+"hts.x=54&buyFlights.y=6&.cgifields=saveCC"

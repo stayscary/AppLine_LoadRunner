@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Никита\Desktop\IBS\VuGen\AppLine_LoadRunner\Скрипты\03_Search_tickets_without_payment
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\03_search_tickets_without_payment\\logfile.log
-c:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\03_search_tickets_without_payment\\combined_03_Search_tickets_without_payment.c
-c:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\03_search_tickets_without_payment\\pre_cci.c

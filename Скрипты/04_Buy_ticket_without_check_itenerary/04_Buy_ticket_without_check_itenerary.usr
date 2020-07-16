@@ -1,7 +1,7 @@
 [General]
 Type=Multi
 DefaultCfg=default.cfg
-ParameterFile=04_Buy_ticket_without_check_itenerary.prm
+ParameterFile=
 GlobalParameterFile=
 NewFunctionHeader=1
 RunType=cci
