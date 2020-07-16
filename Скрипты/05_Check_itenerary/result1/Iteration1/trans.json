@@ -1,27 +1,27 @@
 [
     {
         "transactionName": "open_site",
-        "rawStartTime": 1594929512600,
-        "rawEndTime": 1594929513643
+        "rawStartTime": 1594933860940,
+        "rawEndTime": 1594933867954
     },
     {
         "transactionName": "Login",
-        "rawStartTime": 1594929513861,
-        "rawEndTime": 1594929514110
+        "rawStartTime": 1594933870185,
+        "rawEndTime": 1594933871456
     },
     {
         "transactionName": "Itenerary_click",
-        "rawStartTime": 1594929514199,
-        "rawEndTime": 1594929514668
+        "rawStartTime": 1594933874570,
+        "rawEndTime": 1594933876018
     },
     {
         "transactionName": "Logout",
-        "rawStartTime": 1594929514742,
-        "rawEndTime": 1594929515223
+        "rawStartTime": 1594933876657,
+        "rawEndTime": 1594933877837
     },
     {
         "transactionName": "05_Check_itenerary",
-        "rawStartTime": 1594929512541,
-        "rawEndTime": 1594929515514
+        "rawStartTime": 1594933860474,
+        "rawEndTime": 1594933878145
     }
 ]

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Никита\Desktop\IBS\VuGen\AppLine_LoadRunner\Скрипты\01_Buy_ticket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\01_buy_ticket\\logfile.log
+c:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\01_buy_ticket\\combined_01_Buy_ticket.c
+c:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\01_buy_ticket\\pre_cci.c

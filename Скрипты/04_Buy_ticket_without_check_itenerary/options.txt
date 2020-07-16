@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\Никита\Desktop\IBS\VuGen\Buy_ticket_without_check_itenerary
+-IC:\Users\Никита\Desktop\IBS\VuGen\AppLine_LoadRunner\Скрипты\04_Buy_ticket_without_check_itenerary
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\никита\desktop\ibs\vugen\buy_ticket_without_check_itenerary\\logfile.log
-c:\users\никита\desktop\ibs\vugen\buy_ticket_without_check_itenerary\\combined_Buy_ticket_without_check_itenerary.c
-c:\users\никита\desktop\ibs\vugen\buy_ticket_without_check_itenerary\\pre_cci.c
+-ec:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\04_buy_ticket_without_check_itenerary\\logfile.log
+c:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\04_buy_ticket_without_check_itenerary\\combined_04_Buy_ticket_without_check_itenerary.c
+c:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\04_buy_ticket_without_check_itenerary\\pre_cci.c
