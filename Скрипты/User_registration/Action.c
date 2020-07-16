@@ -35,7 +35,7 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "2&3");
 
-	lr_think_time(38);
+	lr_think_time(3);
 	
 	lr_end_transaction("open_site",LR_AUTO);
 
@@ -53,7 +53,7 @@ Action()
 
 	lr_end_transaction("sign_up_now_click",LR_AUTO);
 
-	lr_think_time(75);
+	lr_think_time(3);
 
 	lr_start_transaction("Insert_user_info");
 
@@ -79,7 +79,7 @@ Action()
 
 	lr_end_transaction("Insert_user_info",LR_AUTO);
 
-	lr_think_time(23);
+	lr_think_time(3);
 
 	lr_start_transaction("Continue_click");
 
@@ -95,7 +95,7 @@ Action()
 
 	lr_end_transaction("Continue_click",LR_AUTO);
 
-	lr_think_time(12);
+	lr_think_time(3);
 
 	lr_start_transaction("Logout");
 

@@ -34,7 +34,7 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "2&3");
 
-	lr_think_time(27);
+	lr_think_time(5);
 
 	lr_end_transaction("open_site",LR_AUTO);
 
@@ -50,8 +50,8 @@ Action()
 		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=userSession", "Value=129195.089185905zztftHcptDQiHcpiDtt", ENDITEM, 
-		"Name=username", "Value=jojo", ENDITEM, 
-		"Name=password", "Value=bean", ENDITEM, 
+		"Name=username", "Value={username}", ENDITEM, 
+		"Name=password", "Value={password}", ENDITEM, 
 		"Name=login.x", "Value=32", ENDITEM, 
 		"Name=login.y", "Value=3", ENDITEM, 
 		"Name=JSFormSubmit", "Value=off", ENDITEM, 

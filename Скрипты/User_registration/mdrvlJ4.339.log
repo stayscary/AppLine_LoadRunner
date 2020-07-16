@@ -1,0 +1,7 @@
+Start auto log messages stack.	[MsgId: MMSG-10546]
+Ending iteration 20.	[MsgId: MMSG-15965]
+Starting iteration 21.	[MsgId: MMSG-15968]
+Error: Parameter 'username': No more unique values for this parameter in table 'username.dat' [unique range is 1-20]. The Vuser is aborted according to "When Out Of Values" policy.	[MsgId: MERR-13870]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
