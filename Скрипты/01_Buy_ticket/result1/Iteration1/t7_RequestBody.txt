@@ -1,2 +1,2 @@
-"outboundFlight=052%3B377%3B07%2F17%2F2020&numPassengers=1&advanceDiscount=0&seatType=First&sea"
-"tPref=None&reserveFlights.x=54&reserveFlights.y=10"
+"outboundFlight=052%3B377%3B07%2F17%2F2020&numPassengers=1&advanceDiscount=0&seatType=Coach&sea"
+"tPref=Window&reserveFlights.x=54&reserveFlights.y=10"

@@ -2789,7 +2789,7 @@ Action()
 
 	lr_end_transaction("Insert_payment_details",2);
 
-	lr_think_time(24);
+	lr_think_time(5);
 
 	lr_start_transaction("Itenerary_click");
 

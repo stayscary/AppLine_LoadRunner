@@ -176,7 +176,7 @@ Action()
 		"Name=lastName", "Value={lastName}", ENDITEM, 
 		"Name=address1", "Value={Adress}", ENDITEM, 
 		"Name=address2", "Value={ZipCode}", ENDITEM, 
-		"Name=pass1", "Value={firstName} {lastName}", ENDITEM, 
+		"Name=pass1", "Value={firstName}", ENDITEM, 
 		"Name=creditCard", "Value={creditCard}", ENDITEM, 
 		"Name=expDate", "Value={expDate}", ENDITEM, 
 		"Name=oldCCOption", "Value=", ENDITEM, 

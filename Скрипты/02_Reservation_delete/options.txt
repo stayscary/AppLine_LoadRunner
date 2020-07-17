@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Никита\Desktop\IBS\VuGen\AppLine_LoadRunner\Скрипты\02_Reservation_delete
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\02_reservation_delete\\logfile.log
+c:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\02_reservation_delete\\combined_02_Reservation_delete.c
+c:\users\никита\desktop\ibs\vugen\appline_loadrunner\скрипты\02_reservation_delete\\pre_cci.c
