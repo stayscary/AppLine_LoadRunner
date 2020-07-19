@@ -1,4 +1,4 @@
-# 1 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\user_registration\\\\combined_User_registration.c"
+# 1 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\appline_loadrunner\\\361\352\360\350\357\362\373\\user_registration\\\\combined_User_registration.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\user_registration\\\\combined_User_registration.c" 2
+# 1 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\appline_loadrunner\\\361\352\360\350\357\362\373\\user_registration\\\\combined_User_registration.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\user_registration\\\\combined_User_registration.c" 2
+# 2 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\appline_loadrunner\\\361\352\360\350\357\362\373\\user_registration\\\\combined_User_registration.c" 2
 
 # 1 "globals.h" 1
 
@@ -2583,21 +2583,20 @@ void
  
 
 
-# 3 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\user_registration\\\\combined_User_registration.c" 2
+# 3 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\appline_loadrunner\\\361\352\360\350\357\362\373\\user_registration\\\\combined_User_registration.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\user_registration\\\\combined_User_registration.c" 2
+# 4 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\appline_loadrunner\\\361\352\360\350\357\362\373\\user_registration\\\\combined_User_registration.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
 	lr_start_transaction("06_user_registration");
 
-	
 	lr_start_transaction("open_site");
 	
 	web_url("WebTours", 
@@ -2618,6 +2617,10 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
+	
+	web_reg_find("Text=A Session ID has been created and loaded into",
+		"LAST");
+
 	web_url("welcome.pl", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true", 
 		"TargetFrame=", 
@@ -2629,12 +2632,16 @@ Action()
 		"LAST");
 
 	web_set_sockets_option("SSL_VERSION", "2&3");
-
-	lr_think_time(38);
 	
 	lr_end_transaction("open_site",2);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("sign_up_now_click");
+
+	
+	web_reg_find("Text=User Information",
+		"LAST");
 
 	web_url("login.pl", 
 		"URL=http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
@@ -2648,11 +2655,15 @@ Action()
 
 	lr_end_transaction("sign_up_now_click",2);
 
-	lr_think_time(75);
+	lr_think_time(5);
 
 	lr_start_transaction("Insert_user_info");
 
-	web_submit_data("login.pl_2", 
+	
+	web_reg_find("Text=Welcome to Web Tours",
+		"LAST");
+
+	web_submit_data("login.pl_2",
 		"Action=http://localhost:1080/cgi-bin/login.pl", 
 		"Method=POST", 
 		"TargetFrame=info", 
@@ -2661,24 +2672,28 @@ Action()
 		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		"ITEMDATA", 
-		"Name=username", "Value=Petya", "ENDITEM", 
-		"Name=password", "Value=1234512345", "ENDITEM", 
-		"Name=passwordConfirm", "Value=1234512345", "ENDITEM", 
-		"Name=firstName", "Value= Petya", "ENDITEM", 
-		"Name=lastName", "Value=Jojo", "ENDITEM", 
-		"Name=address1", "Value=Moscow", "ENDITEM", 
-		"Name=address2", "Value=125090", "ENDITEM", 
+		"Name=username", "Value=asddsa", "ENDITEM", 
+		"Name=password", "Value=asddsa", "ENDITEM", 
+		"Name=passwordConfirm", "Value=asddsa", "ENDITEM", 
+		"Name=firstName", "Value= {firstName}", "ENDITEM", 
+		"Name=lastName", "Value={lastName}", "ENDITEM", 
+		"Name=address1", "Value={Adress}", "ENDITEM", 
+		"Name=address2", "Value={ZipCode}", "ENDITEM", 
 		"Name=register.x", "Value=44", "ENDITEM", 
 		"Name=register.y", "Value=6", "ENDITEM", 
 		"LAST");
 
 	lr_end_transaction("Insert_user_info",2);
 
-	lr_think_time(23);
+	lr_think_time(5);
 
 	lr_start_transaction("Continue_click");
 
-	web_url("button_next.gif", 
+	
+	web_reg_find("Text= User has returned to the home page.",
+		"LAST");
+
+	web_url("button_next.gif",
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
 		"TargetFrame=body", 
 		"Resource=0", 
@@ -2690,9 +2705,13 @@ Action()
 
 	lr_end_transaction("Continue_click",2);
 
-	lr_think_time(12);
+	lr_think_time(5);
 
 	lr_start_transaction("Logout");
+
+	
+	web_reg_find("Text=Web Tours Navigation Bar",
+		"LAST");
 
 	web_url("SignOff Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
@@ -2710,12 +2729,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\user_registration\\\\combined_User_registration.c" 2
+# 5 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\appline_loadrunner\\\361\352\360\350\357\362\373\\user_registration\\\\combined_User_registration.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\user_registration\\\\combined_User_registration.c" 2
+# 6 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\appline_loadrunner\\\361\352\360\350\357\362\373\\user_registration\\\\combined_User_registration.c" 2
 
