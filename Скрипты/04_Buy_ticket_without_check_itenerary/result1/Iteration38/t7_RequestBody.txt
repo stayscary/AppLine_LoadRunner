@@ -1,4 +1,0 @@
-"firstName=Petya&lastName=Ivanov&address1=Majuro&address2=979985&pass1=Petya+Ivanov&creditCard="
-"5404+3702+5644+9883&expDate=2022%2F06&oldCCOption=&numPassengers=1&seatType=First&seatPref=Non"
-"e&outboundFlight=540%3B1165%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&"
-"buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

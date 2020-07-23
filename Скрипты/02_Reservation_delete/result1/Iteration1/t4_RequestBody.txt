@@ -1,2 +1,4 @@
-"1=on&flightID=875251917-7828-NP&flightID=87545215-1601-NP&.cgifields=1&.cgifields=2&removeFlig"
-"hts.x=73&removeFlights.y=15"
+"1=on&flightID=87545564-788-NP&flightID=87529643-1566-NP&flightID=87540395-2359-NP&flightID=875"
+"507450-30858-SI&flightID=875496373-38620-JP&flightID=87524833-4654-SI&flightID=87529638-5403-S"
+"P&.cgifields=6&.cgifields=4&.cgifields=1&.cgifields=3&.cgifields=7&.cgifields=2&.cgifields=5&r"
+"emoveFlights.x=73&removeFlights.y=15"

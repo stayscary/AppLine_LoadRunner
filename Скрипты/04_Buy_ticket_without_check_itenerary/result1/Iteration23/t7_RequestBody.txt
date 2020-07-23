@@ -1,4 +1,0 @@
-"firstName=Nikita&lastName=Petrov&address1=Vientiane&address2=610117&pass1=Nikita+Petrov&credit"
-"Card=5404+3745+7144+4835&expDate=2023%2F11&oldCCOption=&numPassengers=1&seatType=Business&seat"
-"Pref=None&outboundFlight=360%3B87%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmi"
-"t=off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

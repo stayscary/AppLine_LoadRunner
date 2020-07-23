@@ -1,47 +1,47 @@
 [
     {
         "transactionName": "open_site",
-        "rawStartTime": 1595504053958,
-        "rawEndTime": 1595504054738
+        "rawStartTime": 1595534612832,
+        "rawEndTime": 1595534614221
     },
     {
         "transactionName": "Login",
-        "rawStartTime": 1595504054860,
-        "rawEndTime": 1595504055485
+        "rawStartTime": 1595534619928,
+        "rawEndTime": 1595534620825
     },
     {
         "transactionName": "Flights_click",
-        "rawStartTime": 1595504055603,
-        "rawEndTime": 1595504056051
+        "rawStartTime": 1595534626029,
+        "rawEndTime": 1595534627101
     },
     {
         "transactionName": "Find_flight",
-        "rawStartTime": 1595504056175,
-        "rawEndTime": 1595504056690
+        "rawStartTime": 1595534632331,
+        "rawEndTime": 1595534632984
     },
     {
         "transactionName": "Choose_flight",
-        "rawStartTime": 1595504056792,
-        "rawEndTime": 1595504057201
+        "rawStartTime": 1595534638225,
+        "rawEndTime": 1595534638855
     },
     {
         "transactionName": "Insert_payment_details",
-        "rawStartTime": 1595504057310,
-        "rawEndTime": 1595504057631
+        "rawStartTime": 1595534644103,
+        "rawEndTime": 1595534644800
     },
     {
         "transactionName": "Itenerary_click",
-        "rawStartTime": 1595504057727,
-        "rawEndTime": 1595504058144
+        "rawStartTime": 1595534649965,
+        "rawEndTime": 1595534651048
     },
     {
         "transactionName": "Logout",
-        "rawStartTime": 1595504058413,
-        "rawEndTime": 1595504058847
+        "rawStartTime": 1595534656240,
+        "rawEndTime": 1595534657043
     },
     {
         "transactionName": "01_Buy_ticket",
-        "rawStartTime": 1595504053900,
-        "rawEndTime": 1595504058941
+        "rawStartTime": 1595534612760,
+        "rawEndTime": 1595534657230
     }
 ]

@@ -1,4 +1,0 @@
-"firstName=Jonatan&lastName=Galkin&address1=Brussels&address2=404064&pass1=Jonatan+Galkin&credi"
-"tCard=5404+3720+4794+3315&expDate=2022%2F04&oldCCOption=&numPassengers=1&seatType=First&seatPr"
-"ef=Aisle&outboundFlight=140%3B241%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmi"
-"t=off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

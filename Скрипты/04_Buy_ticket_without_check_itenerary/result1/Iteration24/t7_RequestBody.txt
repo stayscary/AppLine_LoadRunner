@@ -1,4 +1,0 @@
-"firstName=Jenya&lastName=Petrov&address1=St.+Georges&address2=724772&pass1=Jenya+Petrov&credit"
-"Card=5404+3798+9879+4408&expDate=2023%2F08&oldCCOption=&numPassengers=1&seatType=Coach&seatPre"
-"f=Aisle&outboundFlight=480%3B1428%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmi"
-"t=off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

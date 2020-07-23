@@ -1,4 +1,0 @@
-"firstName=Jenya&lastName=Gricenko&address1=Nukualofa&address2=130169&pass1=Jenya+Gricenko&cred"
-"itCard=5404+3728+1903+1067&expDate=2023%2F11&oldCCOption=&numPassengers=1&seatType=Business&se"
-"atPref=Window&outboundFlight=460%3B902%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSForm"
-"Submit=off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

@@ -1,4 +1,0 @@
-"firstName=Sasha&lastName=Ivanov&address1=Santo+Domingo&address2=805937&pass1=Sasha+Ivanov&cred"
-"itCard=5404+3748+0847+3284&expDate=2022%2F05&oldCCOption=&numPassengers=1&seatType=First&seatP"
-"ref=Window&outboundFlight=230%3B1449%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSu"
-"bmit=off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

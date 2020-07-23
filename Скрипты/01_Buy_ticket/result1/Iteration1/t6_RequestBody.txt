@@ -1,2 +1,2 @@
-"outboundFlight=720%3B819%3B07%2F24%2F2020&numPassengers=1&advanceDiscount=0&seatType=Business&"
-"seatPref=Window&reserveFlights.x=54&reserveFlights.y=10"
+"outboundFlight=180%3B2287%3B07%2F24%2F2020&numPassengers=1&advanceDiscount=0&seatType=First&se"
+"atPref=Aisle&reserveFlights.x=54&reserveFlights.y=10"

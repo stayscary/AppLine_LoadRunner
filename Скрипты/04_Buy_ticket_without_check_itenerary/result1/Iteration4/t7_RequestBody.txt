@@ -1,4 +1,0 @@
-"firstName=Jonatan&lastName=Galkin&address1=London&address2=150625&pass1=Jonatan+Galkin&creditC"
-"ard=5404+3798+9879+4408&expDate=2023%2F08&oldCCOption=&numPassengers=1&seatType=First&seatPref"
-"=Aisle&outboundFlight=600%3B379%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit="
-"off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

@@ -1,4 +1,0 @@
-"firstName=Vladimir&lastName=Gricenko&address1=Vientiane&address2=610117&pass1=Vladimir+Gricenk"
-"o&creditCard=5404+3702+9838+4510&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=First"
-"&seatPref=Aisle&outboundFlight=190%3B371%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFo"
-"rmSubmit=off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

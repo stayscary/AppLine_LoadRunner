@@ -1,4 +1,0 @@
-"firstName=Jonatan&lastName=Petrov&address1=Brussels&address2=404064&pass1=Jonatan+Petrov&credi"
-"tCard=5404+3798+4086+4028&expDate=2022%2F02&oldCCOption=&numPassengers=1&seatType=First&seatPr"
-"ef=None&outboundFlight=740%3B1122%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmi"
-"t=off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

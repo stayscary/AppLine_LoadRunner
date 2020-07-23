@@ -1,4 +1,4 @@
-"firstName=Nikita&lastName=Petrov&address1=Majuro&address2=979985&pass1=Nikita&creditCard=5404+"
-"3754+4739+2363&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=Business&seatPref=Windo"
-"w&outboundFlight=720%3B819%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&b"
-"uyFlights.x=39&buyFlights.y=3&.cgifields=saveCC"
+"firstName=Nikita&lastName=Petrov&address1=Mexico&address2=828192&pass1=Nikita&creditCard=5404+"
+"3754+4739+2363&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=First&seatPref=Aisle&ou"
+"tboundFlight=180%3B2287%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyF"
+"lights.x=39&buyFlights.y=3&.cgifields=saveCC"

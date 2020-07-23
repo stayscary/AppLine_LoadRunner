@@ -1,4 +1,0 @@
-"firstName=Vladimir&lastName=Ivanov&address1=Windhoek&address2=271054&pass1=Vladimir+Ivanov&cre"
-"ditCard=5404+3702+9838+4510&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=Business&s"
-"eatPref=None&outboundFlight=440%3B0%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSub"
-"mit=off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

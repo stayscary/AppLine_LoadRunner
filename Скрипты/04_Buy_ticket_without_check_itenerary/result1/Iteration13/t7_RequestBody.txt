@@ -1,4 +1,0 @@
-"firstName=Nikita&lastName=Saharov&address1=Turkey&address2=654105&pass1=Nikita+Saharov&creditC"
-"ard=5404+3720+4794+3315&expDate=2022%2F04&oldCCOption=&numPassengers=1&seatType=Coach&seatPref"
-"=Window&outboundFlight=750%3B64%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit="
-"off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

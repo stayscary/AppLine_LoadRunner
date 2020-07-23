@@ -1,4 +1,0 @@
-"firstName=Sergey&lastName=Kras&address1=Santo+Domingo&address2=805937&pass1=Sergey+Kras&credit"
-"Card=5404+3754+4739+2363&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=First&seatPre"
-"f=Aisle&outboundFlight=500%3B515%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit"
-"=off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

@@ -2674,11 +2674,11 @@ Action()
 
 	lr_start_transaction("Choose_reservation");
 	
- 
- 
- 
- 
-  
+	web_reg_save_param("flightId",
+    	"LB=name=\"flightID\" value=\"",
+    	"RB=\"  />",
+    	"LAST");
+	
 	web_reg_save_param_ex(
 	    "ParamName=flightId",
 	    "LB=name=\"flightID\" value=\"",

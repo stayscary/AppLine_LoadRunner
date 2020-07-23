@@ -1,4 +1,0 @@
-"firstName=Petya&lastName=Petrov&address1=Hanoi&address2=884131&pass1=Petya+Petrov&creditCard=5"
-"404+3720+4651+8365&expDate=2023%2F10&oldCCOption=&numPassengers=1&seatType=Business&seatPref=W"
-"indow&outboundFlight=680%3B1067%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit="
-"off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"
