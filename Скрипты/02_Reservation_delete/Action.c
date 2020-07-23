@@ -4,6 +4,16 @@ Action()
 	
 	lr_start_transaction("open_site");
 
+	web_reg_save_param_ex(
+		"ParamName=userSession",
+		"LB/IC=userSession\" value=\"",
+		"RB/IC=\"/>",
+		"Ordinal=1",
+		LAST);
+	
+	web_reg_find("Text=A Session ID has been created and loaded into",
+		LAST);
+	
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
 		"TargetFrame=", 
@@ -12,47 +22,21 @@ Action()
 		"Snapshot=t1.inf", 
 		"Mode=HTML", 
 		LAST);
-
-	web_url("header.html", 
-		"URL=http://localhost:1080/WebTours/header.html", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"Referer=http://localhost:1080/WebTours/", 
-		"Snapshot=t2.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	web_reg_save_param_ex(
-		"ParamName=userSession",
-		"LB/IC=userSession\" value=\"",
-		"RB/IC=\"/>",
-		"Ordinal=1",
-		LAST);
+		
+	lr_end_transaction("open_site", LR_AUTO);
 	
 	web_set_sockets_option("SSL_VERSION", "2&3");
-		
-	web_reg_find("Text=A Session ID has been created and loaded into",
-		LAST);
 
-	web_url("welcome.pl", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/WebTours/", 
-		"Snapshot=t3.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	lr_end_transaction("open_site", LR_AUTO);
-
-
+	lr_think_time(5);
+	
 	lr_start_transaction("Login");
-
 	
 	web_reg_find("Text=User password was correct",
 		LAST);
 
+	web_reg_find("Text=Welcome, <b>{username}</b>",
+		LAST);
+	
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
 		"Method=POST",
@@ -76,7 +60,6 @@ Action()
 
 	lr_start_transaction("Itenerary_click");
 
-	
 	web_reg_find("Text= User wants the intineraries. ",
 		LAST);
 
@@ -95,26 +78,49 @@ Action()
 	lr_think_time(5);
 
 	lr_start_transaction("Choose_reservation");
-
 	
-	web_reg_find("Text=Flights List",
+	web_reg_save_param("flightId",
+    	"LB=name=\"flightID\" value=\"",
+    	"RB=\"  />",
+    	LAST);
+	
+	web_reg_save_param_ex(
+	    "ParamName=flightId",
+	    "LB=name=\"flightID\" value=\"",
+	    "RB=\"  />",
+	    "Ordinal=ALL",
+	    SEARCH_FILTERS,
+	    LAST);
+	
+	web_reg_find("Search=Body",
+		"SaveCount=Flight_count",
+		"TextPfx=A total of ",
+		"TextSfx= scheduled flights.",
 		LAST);
 
 	web_submit_form("itinerary.pl", 
-        "Snapshot=t1.inf", 
-        ITEMDATA, 
+    	"Snapshot=t1.inf", 
+    	ITEMDATA, 
         "Name=1", "Value=on", ENDITEM,         
         "Name=removeFlights.x", "Value=73", ENDITEM, 
         "Name=removeFlights.y", "Value=15", ENDITEM, 
         LAST);
 
+    if (atoi(lr_eval_string("{Flight_count}")) < atoi(lr_eval_string("{flightId_count}")))
+    {
+      	lr_output_message("Delete reservation was success");
+    }
+	else
+	{
+      	lr_error_message("Reservation not found");          
+    }
+	
 	lr_end_transaction("Choose_reservation",LR_AUTO);
 
 	lr_think_time(5);
 
 	lr_start_transaction("Logout");
 
-	
 	web_reg_find("Text= A Session ID has been created and loaded into ",
 		LAST);
 

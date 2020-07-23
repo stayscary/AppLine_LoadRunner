@@ -1,2 +1,4 @@
-"outboundFlight=022%3B464%3B07%2F17%2F2020&numPassengers=1&advanceDiscount=0&seatType=Coach&sea"
-"tPref=None&reserveFlights.x=68&reserveFlights.y=12"
+"firstName=Petya&lastName=Kras&address1=Turkey&address2=654105&pass1=Petya+Kras&creditCard=5404"
+"+3754+4739+2363&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=Business&seatPref=None"
+"&outboundFlight=630%3B87%3B07%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buy"
+"Flights.x=54&buyFlights.y=6&.cgifields=saveCC"

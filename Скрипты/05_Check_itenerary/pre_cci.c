@@ -2599,6 +2599,15 @@ Action()
 
 	lr_start_transaction("open_site");
 	
+	web_reg_save_param_ex(
+		"ParamName=userSession",
+		"LB/IC=userSession\" value=\"",
+		"RB/IC=\"/>",
+		"Ordinal=1",
+		"LAST");
+
+	web_reg_find("Text=A Session ID has been created and loaded into",
+		"LAST");
 	
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
@@ -2609,47 +2618,20 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("header.html", 
-		"URL=http://localhost:1080/WebTours/header.html", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"Referer=http://localhost:1080/WebTours/", 
-		"Snapshot=t2.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	web_reg_save_param_ex(
-		"ParamName=userSession",
-		"LB/IC=userSession\" value=\"",
-		"RB/IC=\"/>",
-		"Ordinal=1",
-		"LAST");
-
-	web_reg_find("Text=A Session ID has been created and loaded into",
-		"LAST");
-
-	web_url("welcome.pl", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/WebTours/", 
-		"Snapshot=t3.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	web_set_sockets_option("SSL_VERSION", "2&3");
-
-	lr_think_time(5);
-
 	lr_end_transaction("open_site",2);
+	
+	web_set_sockets_option("SSL_VERSION", "2&3");
+	
+	lr_think_time(5);
 
 	lr_start_transaction("Login");
 
-	
 	web_reg_find("Text=User password was correct",
 		"LAST");
-
+	
+	web_reg_find("Text=Welcome, <b>{username}</b>",
+		"LAST");
+	
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
 		"Method=POST",
@@ -2673,7 +2655,6 @@ Action()
 
 	lr_start_transaction("Itenerary_click");
 
-	
 	web_reg_find("Text= User wants the intineraries.",
 		"LAST");
 
@@ -2693,7 +2674,6 @@ Action()
 
 	lr_start_transaction("Logout");
 
-	
 	web_reg_find("Text= A Session ID has been created and loaded into",
 		"LAST");
 

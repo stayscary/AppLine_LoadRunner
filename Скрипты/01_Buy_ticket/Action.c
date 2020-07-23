@@ -4,24 +4,6 @@ Action()
 	
 	lr_start_transaction("open_site");
 	
-	web_url("WebTours", 
-		"URL=http://localhost:1080/WebTours/", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"Referer=", 
-		"Snapshot=t1.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	web_url("header.html", 
-		"URL=http://localhost:1080/WebTours/header.html", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"Referer=http://localhost:1080/WebTours/", 
-		"Snapshot=t2.inf", 
-		"Mode=HTML", 
-		LAST);
-
 	web_reg_save_param_ex(
 		"ParamName=userSession",
 		"LB/IC=userSession\" value=\"",
@@ -32,13 +14,12 @@ Action()
 	web_reg_find("Text= A Session ID has been created and loaded into",
 		LAST);
 	
-	web_url("welcome.pl",
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true", 
+	web_url("WebTours", 
+		"URL=http://localhost:1080/WebTours/", 
 		"TargetFrame=", 
 		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/WebTours/", 
-		"Snapshot=t3.inf", 
+		"Referer=", 
+		"Snapshot=t1.inf", 
 		"Mode=HTML", 
 		LAST);
 	
@@ -50,8 +31,10 @@ Action()
 
 	lr_start_transaction("Login");
 
-	
 	web_reg_find("Text=User password was correct ",
+		LAST);
+	
+	web_reg_find("Text=Welcome, <b>{username}</b>",
 		LAST);
 
 	web_submit_data("login.pl",
@@ -77,7 +60,6 @@ Action()
 
 	lr_start_transaction("Flights_click");
 
-	
 	web_reg_find("Text= User has returned to the search page.",
 		LAST);
 
@@ -97,8 +79,21 @@ Action()
 
 	lr_start_transaction("Find_flight");
 
-	
 	web_reg_find("Text=Flight Selections",
+		LAST);
+
+/*Correlation comment - Do not change!  Original value='052;377;07/17/2020' Name ='outboundFlight' Type ='ResponseBased'*/
+	web_reg_save_param_attrib(
+		"ParamName=outboundFlight",
+		"TagName=input",
+		"Extract=value",
+		"Name=outboundFlight",
+		"Type=radio",
+		SEARCH_FILTERS,
+		"IgnoreRedirections=No",
+		LAST);
+
+	web_reg_find("Text=Flight departing from <B>{departCity}</B> to <B>{arriveCity}</B>",
 		LAST);
 
 	web_submit_data("reservations.pl",
@@ -131,26 +126,25 @@ Action()
 
 	lr_start_transaction("Choose_flight");
 
-	
 	web_reg_find("Text=Flight Reservation",
 		LAST);
 
 	web_submit_data("reservations.pl_2",
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t7.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=outboundFlight", "Value=052;377;07/17/2020", ENDITEM, 
-		"Name=numPassengers", "Value=1", ENDITEM, 
-		"Name=advanceDiscount", "Value=0", ENDITEM, 
-		"Name=seatType", "Value={seatType}", ENDITEM, 
-		"Name=seatPref", "Value={seatPref}", ENDITEM, 
-		"Name=reserveFlights.x", "Value=54", ENDITEM, 
-		"Name=reserveFlights.y", "Value=10", ENDITEM, 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+		"Snapshot=t7.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=outboundFlight", "Value={outboundFlight}", ENDITEM,
+		"Name=numPassengers", "Value=1", ENDITEM,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=seatType", "Value={seatType}", ENDITEM,
+		"Name=seatPref", "Value={seatPref}", ENDITEM,
+		"Name=reserveFlights.x", "Value=54", ENDITEM,
+		"Name=reserveFlights.y", "Value=10", ENDITEM,
 		LAST);
 
 	lr_end_transaction("Choose_flight",LR_AUTO);
@@ -159,37 +153,39 @@ Action()
 
 	lr_start_transaction("Insert_payment_details");
 
-	
 	web_reg_find("Text=Reservation Made!",
 		LAST);
 
+	web_reg_find("Text=leaves {departCity}  for {arriveCity}.",
+		LAST);
+
 	web_submit_data("reservations.pl_3",
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t8.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=firstName", "Value={firstName}", ENDITEM, 
-		"Name=lastName", "Value={lastName}", ENDITEM, 
-		"Name=address1", "Value={Adress}", ENDITEM, 
-		"Name=address2", "Value={ZipCode}", ENDITEM, 
-		"Name=pass1", "Value={firstName}", ENDITEM, 
-		"Name=creditCard", "Value={creditCard}", ENDITEM, 
-		"Name=expDate", "Value={expDate}", ENDITEM, 
-		"Name=oldCCOption", "Value=", ENDITEM, 
-		"Name=numPassengers", "Value=1", ENDITEM, 
-		"Name=seatType", "Value={seatType}", ENDITEM, 
-		"Name=seatPref", "Value={seatPref}", ENDITEM, 
-		"Name=outboundFlight", "Value=052;377;07/17/2020", ENDITEM, 
-		"Name=advanceDiscount", "Value=0", ENDITEM, 
-		"Name=returnFlight", "Value=", ENDITEM, 
-		"Name=JSFormSubmit", "Value=off", ENDITEM, 
-		"Name=buyFlights.x", "Value=39", ENDITEM, 
-		"Name=buyFlights.y", "Value=3", ENDITEM, 
-		"Name=.cgifields", "Value=saveCC", ENDITEM, 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+		"Snapshot=t8.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=firstName", "Value={firstName}", ENDITEM,
+		"Name=lastName", "Value={lastName}", ENDITEM,
+		"Name=address1", "Value={Adress}", ENDITEM,
+		"Name=address2", "Value={ZipCode}", ENDITEM,
+		"Name=pass1", "Value={firstName}", ENDITEM,
+		"Name=creditCard", "Value={creditCard}", ENDITEM,
+		"Name=expDate", "Value={expDate}", ENDITEM,
+		"Name=oldCCOption", "Value=", ENDITEM,
+		"Name=numPassengers", "Value=1", ENDITEM,
+		"Name=seatType", "Value={seatType}", ENDITEM,
+		"Name=seatPref", "Value={seatPref}", ENDITEM,
+		"Name=outboundFlight", "Value={outboundFlight}", ENDITEM,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=returnFlight", "Value=", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		"Name=buyFlights.x", "Value=39", ENDITEM,
+		"Name=buyFlights.y", "Value=3", ENDITEM,
+		"Name=.cgifields", "Value=saveCC", ENDITEM,
 		LAST);
 
 	lr_end_transaction("Insert_payment_details",LR_AUTO);
@@ -198,7 +194,6 @@ Action()
 
 	lr_start_transaction("Itenerary_click");
 
-	
 	web_reg_find("Text= User wants the intineraries.",
 		LAST);
 
@@ -218,7 +213,6 @@ Action()
 
 	lr_start_transaction("Logout");
 
-	
 	web_reg_find("Text= A Session ID has been created and loaded into",
 		LAST);
 

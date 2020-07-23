@@ -1,2 +1,2 @@
-"userSession=129201.942243823zztfictpQAtVzzzHDQiHtpQtQtcf&username=Jena&password=uchixa&login.x"
-"=42&login.y=-1&JSFormSubmit=off"
+"1=on&flightID=875251917-7828-NP&flightID=87545215-1601-NP&.cgifields=1&.cgifields=2&removeFlig"
+"hts.x=73&removeFlights.y=15"

@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "open_site",
+        "rawStartTime": 1595495975389,
+        "rawEndTime": 1595495975869
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1595495975968,
+        "rawEndTime": 1595495976530
+    },
+    {
+        "transactionName": "Itenerary_click",
+        "rawStartTime": 1595495976644,
+        "rawEndTime": 1595495977371
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1595495977472,
+        "rawEndTime": 1595495977967
+    },
+    {
+        "transactionName": "05_Check_itenerary",
+        "rawStartTime": 1595495975332,
+        "rawEndTime": 1595495978073
+    }
+]

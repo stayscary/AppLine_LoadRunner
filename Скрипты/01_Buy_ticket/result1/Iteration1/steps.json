@@ -3,60 +3,48 @@
         "stepId": "STEP1",
         "stepName": "Url: WebTours",
         "infFile": "t1.inf",
-        "time": 1594983982603
+        "time": 1595504054736
     },
     {
         "stepId": "STEP2",
-        "stepName": "Url: header.html",
+        "stepName": "Submit Data: login.pl",
         "infFile": "t2.inf",
-        "time": 1594983982725
+        "time": 1595504055484
     },
     {
         "stepId": "STEP3",
-        "stepName": "Url: welcome.pl",
+        "stepName": "Url: Search Flights Button",
         "infFile": "t3.inf",
-        "time": 1594983983454
+        "time": 1595504056050
     },
     {
         "stepId": "STEP4",
-        "stepName": "Submit Data: login.pl",
-        "infFile": "t4.inf",
-        "time": 1594983985013
+        "stepName": "Submit Data: reservations.pl",
+        "infFile": "t5.inf",
+        "time": 1595504056688
     },
     {
         "stepId": "STEP5",
-        "stepName": "Url: Search Flights Button",
-        "infFile": "t5.inf",
-        "time": 1594983986617
+        "stepName": "Submit Data: reservations.pl_2",
+        "infFile": "t6.inf",
+        "time": 1595504057200
     },
     {
         "stepId": "STEP6",
-        "stepName": "Submit Data: reservations.pl",
-        "infFile": "t6.inf",
-        "time": 1594983987637
+        "stepName": "Submit Data: reservations.pl_3",
+        "infFile": "t7.inf",
+        "time": 1595504057629
     },
     {
         "stepId": "STEP7",
-        "stepName": "Submit Data: reservations.pl_2",
-        "infFile": "t7.inf",
-        "time": 1594983988996
+        "stepName": "Url: Itinerary Button",
+        "infFile": "t8.inf",
+        "time": 1595504058142
     },
     {
         "stepId": "STEP8",
-        "stepName": "Submit Data: reservations.pl_3",
-        "infFile": "t8.inf",
-        "time": 1594983990151
-    },
-    {
-        "stepId": "STEP9",
-        "stepName": "Url: Itinerary Button",
-        "infFile": "t9.inf",
-        "time": 1594983991775
-    },
-    {
-        "stepId": "STEP10",
         "stepName": "Url: SignOff Button",
-        "infFile": "t10.inf",
-        "time": 1594983993272
+        "infFile": "t9.inf",
+        "time": 1595504058845
     }
 ]

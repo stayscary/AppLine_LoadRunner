@@ -1,9 +1,9 @@
 HTTP/1.1 200 OK
-Date: Thu, 16 Jul 2020 21:11:39 GMT
+Date: Thu, 23 Jul 2020 09:18:44 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: 5s
-Set-Cookie: MTUserInfo=firstName&%20Vladimir&address2&573006&username&Peta&hash&97&lastName&Sidorov%0A&address1&Guatemala&creditCard&&expDate&%0A; path=/
-Keep-Alive: timeout=5, max=96
+Set-Cookie: MSO=SID&1595495924; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 22-Jul-2020 09:18:44 GMT
+Keep-Alive: timeout=5, max=92
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1

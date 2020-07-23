@@ -1,4 +1,0 @@
-"firstName=Nikita&lastName=Petrov&address1=Guatemala&address2=485348&pass1=Nikita+Petrov&credit"
-"Card=5404+3754+4739+2363&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=Coach&seatPre"
-"f=Window&outboundFlight=052%3B377%3B07%2F17%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmi"
-"t=off&buyFlights.x=39&buyFlights.y=3&.cgifields=saveCC"

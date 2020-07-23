@@ -3,54 +3,42 @@
         "stepId": "STEP1",
         "stepName": "Url: WebTours",
         "infFile": "t1.inf",
-        "time": 1594941800902
+        "time": 1595496118995
     },
     {
         "stepId": "STEP2",
-        "stepName": "Url: header.html",
+        "stepName": "Submit Data: login.pl",
         "infFile": "t2.inf",
-        "time": 1594941800949
+        "time": 1595496119564
     },
     {
         "stepId": "STEP3",
-        "stepName": "Url: welcome.pl",
+        "stepName": "Url: Search Flights Button",
         "infFile": "t3.inf",
-        "time": 1594941801333
+        "time": 1595496120242
     },
     {
         "stepId": "STEP4",
-        "stepName": "Submit Data: login.pl",
-        "infFile": "t4.inf",
-        "time": 1594941801925
+        "stepName": "Submit Data: reservations.pl",
+        "infFile": "t5.inf",
+        "time": 1595496121870
     },
     {
         "stepId": "STEP5",
-        "stepName": "Url: Search Flights Button",
-        "infFile": "t5.inf",
-        "time": 1594941802782
+        "stepName": "Submit Data: reservations.pl_2",
+        "infFile": "t6.inf",
+        "time": 1595496122770
     },
     {
         "stepId": "STEP6",
-        "stepName": "Submit Data: reservations.pl",
-        "infFile": "t6.inf",
-        "time": 1594941803185
+        "stepName": "Submit Data: reservations.pl_3",
+        "infFile": "t7.inf",
+        "time": 1595496123653
     },
     {
         "stepId": "STEP7",
-        "stepName": "Submit Data: reservations.pl_2",
-        "infFile": "t7.inf",
-        "time": 1594941803632
-    },
-    {
-        "stepId": "STEP8",
-        "stepName": "Submit Data: reservations.pl_3",
-        "infFile": "t8.inf",
-        "time": 1594941804077
-    },
-    {
-        "stepId": "STEP9",
         "stepName": "Url: SignOff Button",
-        "infFile": "t9.inf",
-        "time": 1594941804596
+        "infFile": "t8.inf",
+        "time": 1595496124432
     }
 ]

@@ -1,3 +1,2 @@
-"advanceDiscount=0&depart=Frankfurt&departDate=07%2F20%2F2020&arrive=London&returnDate=07%2F22%"
-"2F2020&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=51&findFlights.y=9&.cgifield"
-"s=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"outboundFlight=630%3B87%3B07%2F24%2F2020&numPassengers=1&advanceDiscount=0&seatType=Business&s"
+"eatPref=None&reserveFlights.x=68&reserveFlights.y=12"
