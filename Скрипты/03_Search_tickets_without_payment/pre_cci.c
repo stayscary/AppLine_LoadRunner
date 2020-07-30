@@ -2765,8 +2765,6 @@ Action()
 	lr_end_transaction("Logout",2);
 
 	lr_end_transaction("03_Search_tickets_without_payment",2);
-
-	return 0;
 }
 # 5 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\appline_loadrunner\\\361\352\360\350\357\362\373\\03_search_tickets_without_payment\\\\combined_03_Search_tickets_without_payment.c" 2
 

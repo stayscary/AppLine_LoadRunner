@@ -4,35 +4,15 @@ Action()
 
 	lr_start_transaction("open_site");
 	
+	web_reg_find("Text= A Session ID has been created and loaded into",
+		LAST);
+	
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"Referer=", 
 		"Snapshot=t1.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	web_url("header.html", 
-		"URL=http://localhost:1080/WebTours/header.html", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"Referer=http://localhost:1080/WebTours/", 
-		"Snapshot=t2.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	
-	web_reg_find("Text=A Session ID has been created and loaded into",
-		LAST);
-
-	web_url("welcome.pl", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/WebTours/", 
-		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		LAST);
 

@@ -229,6 +229,4 @@ Action()
 	lr_end_transaction("Logout",LR_AUTO);
 
 	lr_end_transaction("01_Buy_ticket",LR_AUTO);
-
-	return 0;
 }

@@ -210,6 +210,4 @@ Action()
 	lr_end_transaction("Logout",LR_AUTO);
 
 	lr_end_transaction("04_Buy_ticket_without_check_itenerary",LR_AUTO);
-
-	return 0;
 }

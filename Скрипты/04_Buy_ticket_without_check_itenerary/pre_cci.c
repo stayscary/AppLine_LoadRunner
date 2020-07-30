@@ -2805,8 +2805,6 @@ Action()
 	lr_end_transaction("Logout",2);
 
 	lr_end_transaction("04_Buy_ticket_without_check_itenerary",2);
-
-	return 0;
 }
 # 5 "c:\\users\\\355\350\352\350\362\340\\desktop\\ibs\\vugen\\appline_loadrunner\\\361\352\360\350\357\362\373\\04_buy_ticket_without_check_itenerary\\\\combined_04_Buy_ticket_without_check_itenerary.c" 2
 

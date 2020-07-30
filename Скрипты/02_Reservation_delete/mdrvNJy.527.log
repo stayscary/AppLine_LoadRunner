@@ -1,0 +1,14 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(72): Registered web_reg_find successful for "Text= User wants the intineraries. " (count=1)  	[MsgId: MMSG-26364]
+Action.c(72): web_url("Itinerary Button") was successful, 39491 body bytes, 1917 header bytes, 99 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(82): Notify: Transaction "Itenerary_click" ended with a "Pass" status (Duration: 0,2489 Wasted Time: 0,0006).	[MsgId: MMSG-16871]
+Action.c(84): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(86): Notify: Transaction "Choose_reservation" started.	[MsgId: MMSG-16999]
+Action.c(88): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(88): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(93): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(93): Submitting form to "http://localhost:1080/cgi-bin/itinerary.pl", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(93): Error -26377: No match found for the requested parameter "1_FlightID_AfterDelete". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 932 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

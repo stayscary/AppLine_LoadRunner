@@ -1,5 +1,34 @@
 ﻿[ErrorsDataSupervisor_BasicInfo]
-NumFilters=0
+NumFilters=2
+
+[AdditionalFilter0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=7
+UseEscapeSequence=1
+DimCount=7
+Dim_0=Choose_flight
+Dim_1=Choose_reservation
+Dim_2=Find_flight
+Dim_3=Insert_payment_details
+Dim_4=Itenerary_click
+Dim_5=Login
+Dim_6=Logout
+LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=120.000000
+Dim_1=1320.000000
 
 [DimensionFunctions]
 DimeFuncCount=1

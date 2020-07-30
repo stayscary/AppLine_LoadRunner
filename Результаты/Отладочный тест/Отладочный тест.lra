@@ -1,12 +1,12 @@
 ﻿[Workspace]
 SessionStartTime=0
-SessionEndTime=1448
+SessionEndTime=1452
 VerNo=13
 IsSummaryData=0
 TimeFormat=0
 SesLang=RUS
 ABuild=0
-DataBaseName=resl992128887DB
+DataBaseName=resl74060559DB
 DBType=1
 CurrServer=DESKTOP-D16P3PG
 CurrUser=sa
@@ -43,8 +43,8 @@ ResultTDPath=
 NumFilters=0
 ScenarioTimeZone=-10800
 DaylightSavingSecsAddition=0
-ScenarioStartTime=1595669821
-ScenarioEndTime=1595671269
+ScenarioStartTime=1596117094
+ScenarioEndTime=1596118546
 ResInSD=0
 WebGran=5
 FilterEdge=0
@@ -59,7 +59,7 @@ Schedule Name=Schedule 1
 Mode=Scenario Scheduling
 Load Behavior=Initialize all Vusers simultaneously
 Scenario Duration=Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
-NumGraphs=6
+NumGraphs=5
 
 [DimensionFunctions]
 DimeFuncCount=1
