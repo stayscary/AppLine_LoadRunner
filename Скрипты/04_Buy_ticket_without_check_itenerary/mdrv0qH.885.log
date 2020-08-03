@@ -1,0 +1,63 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(76): Notify: Transaction "Flights_click" ended with a "Pass" status (Duration: 0,2043 Wasted Time: 0,0001).	[MsgId: MMSG-16871]
+Action.c(78): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(80): Notify: Transaction "Find_flight" started.	[MsgId: MMSG-16999]
+Action.c(82): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(82): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(86): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(86): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(96): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(96): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(99): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action.c(99): Error -35048: No match found for the requested parameter "outboundFlight". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(99): Registered web_reg_find successful for "Text=Flight Selections" (count=1)  	[MsgId: MMSG-26364]
+Action.c(99): Error -26366: "Text=Flight departing from <B>Zurich</B> to <B>Frankfurt</B>" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(76): Notify: Transaction "Flights_click" ended with a "Pass" status (Duration: 0,2090 Wasted Time: 0,0002).	[MsgId: MMSG-16871]
+Action.c(78): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(80): Notify: Transaction "Find_flight" started.	[MsgId: MMSG-16999]
+Action.c(82): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(82): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(86): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(86): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(96): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(96): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(99): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action.c(99): Error -35048: No match found for the requested parameter "outboundFlight". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(99): Registered web_reg_find successful for "Text=Flight Selections" (count=1)  	[MsgId: MMSG-26364]
+Action.c(99): Error -26366: "Text=Flight departing from <B>Portland</B> to <B>Sydney</B>" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(76): Notify: Transaction "Flights_click" ended with a "Pass" status (Duration: 0,1770 Wasted Time: 0,0001).	[MsgId: MMSG-16871]
+Action.c(78): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(80): Notify: Transaction "Find_flight" started.	[MsgId: MMSG-16999]
+Action.c(82): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(82): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(86): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(86): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(96): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(96): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(99): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action.c(99): Error -35048: No match found for the requested parameter "outboundFlight". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(99): Registered web_reg_find successful for "Text=Flight Selections" (count=1)  	[MsgId: MMSG-26364]
+Action.c(99): Error -26366: "Text=Flight departing from <B>Seattle</B> to <B>Los Angeles</B>" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

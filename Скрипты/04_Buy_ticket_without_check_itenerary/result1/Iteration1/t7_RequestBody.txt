@@ -1,4 +1,4 @@
-"firstName=Skool&lastName=Gricenko&address1=Brazil&address2=133722&pass1=Skool+Gricenko&creditC"
-"ard=5404+3754+4739+2363&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=Business&seatP"
-"ref=Aisle&outboundFlight=700%3B424%3B07%2F31%2F2020&advanceDiscount=0&returnFlight=&JSFormSubm"
-"it=off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"
+"firstName=Naruta&lastName=Petrov&address1=Brussels&address2=404064&pass1=Naruta+Petrov&creditC"
+"ard=5404+3754+4739+2363&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=First&seatPref"
+"=None&outboundFlight=640%3B1167%3B11%2F02%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit="
+"off&buyFlights.x=54&buyFlights.y=6&.cgifields=saveCC"

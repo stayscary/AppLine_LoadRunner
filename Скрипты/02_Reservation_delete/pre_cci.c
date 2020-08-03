@@ -2658,12 +2658,12 @@ Action()
 	web_reg_find("Text= User wants the intineraries. ",
 		"LAST");
 
-	 
-	web_reg_save_param("1_FlightID_BeforeDelete",
+	web_reg_save_param("FlightID_BeforeDelete",
     	"LB=name=\"flightID\" value=\"",
     	"RB=-",
+    	"Ord=All",
     	"LAST");
-	
+
 	web_url("Itinerary Button",
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
@@ -2673,17 +2673,16 @@ Action()
 		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		"LAST");
-
+	
 	lr_end_transaction("Itenerary_click",2);
 
 	lr_think_time(5);
 
 	lr_start_transaction("Choose_reservation");
 	
-	web_reg_save_param("1_FlightID_AfterDelete",
-    	"LB=name=\"flightID\" value=\"",
-    	"RB=-",
-    	"LAST");
+	web_reg_find("Fail=Found",
+		"Text={FlightID_BeforeDelete_1}",
+		"LAST");
 	
 	web_submit_form("itinerary.pl", 
     	"Snapshot=t1.inf", 
@@ -2692,15 +2691,6 @@ Action()
         "Name=removeFlights.x", "Value=73", "ENDITEM", 
         "Name=removeFlights.y", "Value=15", "ENDITEM", 
         "LAST");
-
-    if ((lr_eval_string("{1_FlightID_BeforeDelete}")) != lr_eval_string("{1_FlightID_AfterDelete}"))
-    {
-      	lr_output_message("Delete reservation was success");
-    }
-	else
-	{
-      	lr_error_message("Reservation not found");          
-    }
 	
 	lr_end_transaction("Choose_reservation",2);
 

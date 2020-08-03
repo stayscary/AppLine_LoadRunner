@@ -5,13 +5,13 @@
         <Subsections />
         <Entries>
           <Entry key="ElapsedTime">
-            <double>29.6807575</double>
+            <double>7.4849999999999994</double>
           </Entry>
           <Entry key="StartedAt">
-            <dateTime>2020-07-30T00:26:05.9635244+03:00</dateTime>
+            <dateTime>2020-08-02T19:41:11.8854637+03:00</dateTime>
           </Entry>
           <Entry key="EndedAt">
-            <dateTime>2020-07-30T00:26:35.6442819+03:00</dateTime>
+            <dateTime>2020-08-02T19:41:19.3702219+03:00</dateTime>
           </Entry>
           <Entry key="ReplayStatus">
             <LastReplayRunStatus>Passed</LastReplayRunStatus>

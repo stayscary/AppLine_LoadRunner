@@ -1,4 +1,4 @@
-"firstName=Lolka&lastName=Galkin&address1=Ukrain&address2=150605&pass1=Lolka&creditCard=5404+37"
-"54+4739+2363&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=First&seatPref=Aisle&outb"
-"oundFlight=680%3B1379%3B07%2F31%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFli"
-"ghts.x=39&buyFlights.y=3&.cgifields=saveCC"
+"firstName=Lolka&lastName=Ivanov&address1=Nukualofa&address2=130169&pass1=Lolka&creditCard=5404"
+"+3754+4739+2363&expDate=2023%2F01&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&ou"
+"tboundFlight=000%3B0%3B01%2F01%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlig"
+"hts.x=39&buyFlights.y=3&.cgifields=saveCC"
