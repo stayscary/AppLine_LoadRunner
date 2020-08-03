@@ -10,7 +10,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T391750171T
+TableName=T395149918T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -25,7 +25,7 @@ IdsToStrs=1
 StdMonitor=0
 HiddenFunctions=
 NumBasicFilters=0
-NumAdditionalFilters=1
+NumAdditionalFilters=2
 NumRawDataFilters=1
 HiddenDimensions=
 BasicGroupBy=Vuser Status
@@ -64,6 +64,17 @@ UseEscapeSequence=1
 DimCount=1
 Dim_0=Run
 LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=120.000000
+Dim_1=3720.000000
 
 [DimensionFunctions]
 DimeFuncCount=0

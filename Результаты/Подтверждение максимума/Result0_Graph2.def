@@ -40,7 +40,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T389176666T
+TableName=T395129893T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -55,7 +55,7 @@ IdsToStrs=1
 StdMonitor=0
 HiddenFunctions=
 NumBasicFilters=2
-NumAdditionalFilters=0
+NumAdditionalFilters=1
 NumRawDataFilters=0
 HiddenDimensions=
 BasicGroupBy=Web Server Resource Name
@@ -109,6 +109,17 @@ LikeMode=0
 
 [Filter Data]
 SingleValue=Throughput
+
+[AdditionalFilter0]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=120.000000
+Dim_1=3720.000000
 
 [DimensionFunctions]
 DimeFuncCount=0

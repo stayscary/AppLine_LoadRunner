@@ -29,7 +29,7 @@ ActionClearFilterEnabled=0
 ChartFile=C:\Users\Никита\Desktop\IBS\VuGen\AppLine_LoadRunner\Результаты\Подтверждение максимума\Result0_Graph15.cfg
 View3D=0
 IntLegendVisible=0
-Chart3dPercent=10
+Chart3dPercent=1
 Pen_Style=0
 Pen_SmallDots=0
 Pen_Visible=1
@@ -40,7 +40,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T391580413T
+TableName=T395148179T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -55,7 +55,7 @@ IdsToStrs=1
 StdMonitor=0
 HiddenFunctions=Think Time
 NumBasicFilters=1
-NumAdditionalFilters=0
+NumAdditionalFilters=2
 NumRawDataFilters=0
 HiddenDimensions=
 BasicGroupBy=Transaction Name
@@ -94,6 +94,33 @@ UseEscapeSequence=1
 DimCount=1
 Dim_0=Transaction
 LikeMode=0
+
+[AdditionalFilter0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=5
+UseEscapeSequence=1
+DimCount=5
+Dim_0=01_Buy_ticket
+Dim_1=02_Reservation_delete
+Dim_2=03_Search_tickets_without_payment
+Dim_3=04_Buy_ticket_without_check_itenerary
+Dim_4=05_Check_itenerary
+LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=120.000000
+Dim_1=3720.000000
 
 [DimensionFunctions]
 DimeFuncCount=1

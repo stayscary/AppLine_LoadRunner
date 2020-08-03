@@ -10,7 +10,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T379759944T
+TableName=T392362676T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -100,7 +100,7 @@ DimeFuncCount=1
 DimeFuncType0=FuncFragment
 FunctionName_UI0=Think Time
 DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
-FunctionFragmentValues_UI0=-Include Think Time
+FunctionFragmentValues_UI0=
 DimensionFragmentValues_UI0=
 
 [Granularity]

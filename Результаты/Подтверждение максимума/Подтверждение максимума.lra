@@ -34,13 +34,13 @@ MonAgg=0
 ErrAgg=0
 FilterEdge=0
 FSartTime=0
-FEndTime=84600
+FEndTime=0
 
 [Result0]
 LRRID=
 ResultPath=C:\Users\Никита\AppData\Local\Temp\res\res.lrr
 ResultTDPath=
-NumFilters=0
+NumFilters=2
 ScenarioTimeZone=-10800
 DaylightSavingSecsAddition=0
 ScenarioStartTime=1596482428
@@ -61,6 +61,38 @@ Load Behavior=Initialize all Vusers simultaneously
 Scenario Duration=Start 18 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 01:02:00 (HH:MM:SS); Stop all Vusers simultaneously
 NumGraphs=19
 
+[Result0_GLOBALFILTER0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=5
+UseEscapeSequence=1
+DimCount=5
+Dim_0=01_Buy_ticket
+Dim_1=02_Reservation_delete
+Dim_2=03_Search_tickets_without_payment
+Dim_3=04_Buy_ticket_without_check_itenerary
+Dim_4=05_Check_itenerary
+LikeMode=0
+
+[Result0_GLOBALFILTER1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=120.000000
+Dim_1=3720.000000
+
 [DimensionFunctions]
-DimeFuncCount=0
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=
+DimensionFragmentValues_UI0=
 
