@@ -11,7 +11,7 @@
 <a2:ArrayList id="ref-5" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
 <_items href="#ref-7"/>
 <_size>13</_size>
-<_version>37</_version>
+<_version>65</_version>
 </a2:ArrayList>
 <a5:TSLADataProvider id="ref-6" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/SLADataProvider/Analysis.SLA">
 </a5:TSLADataProvider>
@@ -32,107 +32,107 @@
 </SOAP-ENC:Array>
 <a7:SLARuleInfo id="ref-8" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_RuleDef href="#ref-21"/>
-<m_RuleData xsi:null="1"/>
-<m_RuleResult xsi:null="1"/>
+<m_RuleData href="#ref-22"/>
+<m_RuleResult href="#ref-23"/>
 <m_strId>transaction_response_time_percentile_01_Buy_ticket</m_strId>
-<m_IsValid>false</m_IsValid>
-<m_PrimaryException href="#ref-22"/>
-</a7:SLARuleInfo>
-<a7:SLARuleInfo id="ref-9" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-23"/>
-<m_RuleData xsi:null="1"/>
-<m_RuleResult xsi:null="1"/>
-<m_strId>transaction_response_time_percentile_02_Reservation_delete</m_strId>
-<m_IsValid>false</m_IsValid>
+<m_IsValid>true</m_IsValid>
 <m_PrimaryException href="#ref-24"/>
 </a7:SLARuleInfo>
-<a7:SLARuleInfo id="ref-10" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLARuleInfo id="ref-9" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_RuleDef href="#ref-25"/>
-<m_RuleData xsi:null="1"/>
-<m_RuleResult xsi:null="1"/>
-<m_strId>transaction_response_time_percentile_03_Search_tickets_without_payment</m_strId>
-<m_IsValid>false</m_IsValid>
-<m_PrimaryException href="#ref-26"/>
-</a7:SLARuleInfo>
-<a7:SLARuleInfo id="ref-11" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-27"/>
-<m_RuleData xsi:null="1"/>
-<m_RuleResult xsi:null="1"/>
-<m_strId>transaction_response_time_percentile_04_Buy_ticket_without_check_itenerary</m_strId>
-<m_IsValid>false</m_IsValid>
+<m_RuleData href="#ref-26"/>
+<m_RuleResult href="#ref-27"/>
+<m_strId>transaction_response_time_percentile_02_Reservation_delete</m_strId>
+<m_IsValid>true</m_IsValid>
 <m_PrimaryException href="#ref-28"/>
 </a7:SLARuleInfo>
-<a7:SLARuleInfo id="ref-12" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLARuleInfo id="ref-10" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_RuleDef href="#ref-29"/>
-<m_RuleData xsi:null="1"/>
-<m_RuleResult xsi:null="1"/>
+<m_RuleData href="#ref-30"/>
+<m_RuleResult href="#ref-31"/>
+<m_strId>transaction_response_time_percentile_03_Search_tickets_without_payment</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException href="#ref-32"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-11" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-33"/>
+<m_RuleData href="#ref-34"/>
+<m_RuleResult href="#ref-35"/>
+<m_strId>transaction_response_time_percentile_04_Buy_ticket_without_check_itenerary</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException href="#ref-36"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-12" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-37"/>
+<m_RuleData href="#ref-38"/>
+<m_RuleResult href="#ref-39"/>
 <m_strId>transaction_response_time_percentile_05_Check_itenerary</m_strId>
-<m_IsValid>false</m_IsValid>
-<m_PrimaryException href="#ref-30"/>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException href="#ref-40"/>
 </a7:SLARuleInfo>
 <a7:SLARuleInfo id="ref-13" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-31"/>
-<m_RuleData href="#ref-32"/>
-<m_RuleResult href="#ref-33"/>
+<m_RuleDef href="#ref-41"/>
+<m_RuleData href="#ref-42"/>
+<m_RuleResult href="#ref-43"/>
 <m_strId>transaction_response_time_percentile_Choose_flight</m_strId>
 <m_IsValid>true</m_IsValid>
-<m_PrimaryException href="#ref-34"/>
+<m_PrimaryException xsi:null="1"/>
 </a7:SLARuleInfo>
 <a7:SLARuleInfo id="ref-14" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-35"/>
-<m_RuleData href="#ref-36"/>
-<m_RuleResult href="#ref-37"/>
+<m_RuleDef href="#ref-44"/>
+<m_RuleData href="#ref-45"/>
+<m_RuleResult href="#ref-46"/>
 <m_strId>transaction_response_time_percentile_Choose_reservation</m_strId>
 <m_IsValid>true</m_IsValid>
-<m_PrimaryException href="#ref-38"/>
+<m_PrimaryException xsi:null="1"/>
 </a7:SLARuleInfo>
 <a7:SLARuleInfo id="ref-15" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-39"/>
-<m_RuleData href="#ref-40"/>
-<m_RuleResult href="#ref-41"/>
-<m_strId>transaction_response_time_percentile_Find_flight</m_strId>
-<m_IsValid>true</m_IsValid>
-<m_PrimaryException href="#ref-42"/>
-</a7:SLARuleInfo>
-<a7:SLARuleInfo id="ref-16" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-43"/>
-<m_RuleData href="#ref-44"/>
-<m_RuleResult href="#ref-45"/>
-<m_strId>transaction_response_time_percentile_Flights_click</m_strId>
-<m_IsValid>true</m_IsValid>
-<m_PrimaryException href="#ref-46"/>
-</a7:SLARuleInfo>
-<a7:SLARuleInfo id="ref-17" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_RuleDef href="#ref-47"/>
 <m_RuleData href="#ref-48"/>
 <m_RuleResult href="#ref-49"/>
+<m_strId>transaction_response_time_percentile_Find_flight</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-16" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-50"/>
+<m_RuleData href="#ref-51"/>
+<m_RuleResult href="#ref-52"/>
+<m_strId>transaction_response_time_percentile_Flights_click</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-17" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-53"/>
+<m_RuleData href="#ref-54"/>
+<m_RuleResult href="#ref-55"/>
 <m_strId>transaction_response_time_percentile_Insert_payment_details</m_strId>
 <m_IsValid>true</m_IsValid>
-<m_PrimaryException href="#ref-50"/>
+<m_PrimaryException xsi:null="1"/>
 </a7:SLARuleInfo>
 <a7:SLARuleInfo id="ref-18" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-51"/>
-<m_RuleData href="#ref-52"/>
-<m_RuleResult href="#ref-53"/>
+<m_RuleDef href="#ref-56"/>
+<m_RuleData href="#ref-57"/>
+<m_RuleResult href="#ref-58"/>
 <m_strId>transaction_response_time_percentile_Itenerary_click</m_strId>
 <m_IsValid>true</m_IsValid>
-<m_PrimaryException href="#ref-54"/>
+<m_PrimaryException xsi:null="1"/>
 </a7:SLARuleInfo>
 <a7:SLARuleInfo id="ref-19" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-55"/>
-<m_RuleData href="#ref-56"/>
-<m_RuleResult href="#ref-57"/>
-<m_strId>transaction_response_time_percentile_Login</m_strId>
-<m_IsValid>true</m_IsValid>
-<m_PrimaryException href="#ref-58"/>
-</a7:SLARuleInfo>
-<a7:SLARuleInfo id="ref-20" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_RuleDef href="#ref-59"/>
 <m_RuleData href="#ref-60"/>
 <m_RuleResult href="#ref-61"/>
+<m_strId>transaction_response_time_percentile_Login</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException xsi:null="1"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-20" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-62"/>
+<m_RuleData href="#ref-63"/>
+<m_RuleResult href="#ref-64"/>
 <m_strId>transaction_response_time_percentile_Logout</m_strId>
 <m_IsValid>true</m_IsValid>
-<m_PrimaryException href="#ref-62"/>
+<m_PrimaryException xsi:null="1"/>
 </a7:SLARuleInfo>
 <a7:SLAPercentileRuleDef id="ref-21" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>01_Buy_ticket</FSubMsrName>
@@ -147,33 +147,14 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a6:Exception id="ref-22" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
-<ClassName>System.Exception</ClassName>
-<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
-<Data xsi:null="1"/>
-<InnerException xsi:null="1"/>
-<HelpURL xsi:null="1"/>
-<StackTraceString xsi:null="1"/>
-<RemoteStackTraceString xsi:null="1"/>
-<RemoteStackIndex>0</RemoteStackIndex>
-<ExceptionMethod xsi:null="1"/>
-<HResult>-2146233088</HResult>
-<Source xsi:null="1"/>
-<WatsonBuckets xsi:null="1"/>
-</a6:Exception>
-<a7:SLAPercentileRuleDef id="ref-23" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<FSubMsrName>02_Reservation_delete</FSubMsrName>
-<FGoalValue>46</FGoalValue>
-<FPercentage>90</FPercentage>
-<m_RuleName>transaction_response_time_percentile_02_Reservation_delete</m_RuleName>
-<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
-<m_Measurement>transaction_response_time_percentile</m_Measurement>
-<m_CalcDirection>greater_than_equal</m_CalcDirection>
-<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_02_Reservation_delete</SLARuleDef_x002B_m_RuleName>
-<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
-<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
-<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
-</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-22" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>39.628</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-23" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>39.628</m_RealValue>
+<m_GoalValue>80</m_GoalValue>
+</a7:SLASimpleRuleResult>
 <a6:Exception id="ref-24" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
 <ClassName>System.Exception</ClassName>
 <Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
@@ -189,45 +170,26 @@
 <WatsonBuckets xsi:null="1"/>
 </a6:Exception>
 <a7:SLAPercentileRuleDef id="ref-25" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<FSubMsrName>03_Search_tickets_without_payment</FSubMsrName>
-<FGoalValue>58</FGoalValue>
+<FSubMsrName>02_Reservation_delete</FSubMsrName>
+<FGoalValue>46</FGoalValue>
 <FPercentage>90</FPercentage>
-<m_RuleName>transaction_response_time_percentile_03_Search_tickets_without_payment</m_RuleName>
+<m_RuleName>transaction_response_time_percentile_02_Reservation_delete</m_RuleName>
 <m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
 <m_Measurement>transaction_response_time_percentile</m_Measurement>
 <m_CalcDirection>greater_than_equal</m_CalcDirection>
-<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_03_Search_tickets_without_payment</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_02_Reservation_delete</SLARuleDef_x002B_m_RuleName>
 <SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a6:Exception id="ref-26" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
-<ClassName>System.Exception</ClassName>
-<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
-<Data xsi:null="1"/>
-<InnerException xsi:null="1"/>
-<HelpURL xsi:null="1"/>
-<StackTraceString xsi:null="1"/>
-<RemoteStackTraceString xsi:null="1"/>
-<RemoteStackIndex>0</RemoteStackIndex>
-<ExceptionMethod xsi:null="1"/>
-<HResult>-2146233088</HResult>
-<Source xsi:null="1"/>
-<WatsonBuckets xsi:null="1"/>
-</a6:Exception>
-<a7:SLAPercentileRuleDef id="ref-27" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<FSubMsrName>04_Buy_ticket_without_check_itenerary</FSubMsrName>
-<FGoalValue>72</FGoalValue>
-<FPercentage>90</FPercentage>
-<m_RuleName>transaction_response_time_percentile_04_Buy_ticket_without_check_itenerary</m_RuleName>
-<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
-<m_Measurement>transaction_response_time_percentile</m_Measurement>
-<m_CalcDirection>greater_than_equal</m_CalcDirection>
-<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_04_Buy_ticket_without_check_itenerary</SLARuleDef_x002B_m_RuleName>
-<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
-<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
-<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
-</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-26" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>23.457</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-27" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>23.457</m_RealValue>
+<m_GoalValue>46</m_GoalValue>
+</a7:SLASimpleRuleResult>
 <a6:Exception id="ref-28" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
 <ClassName>System.Exception</ClassName>
 <Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
@@ -243,6 +205,76 @@
 <WatsonBuckets xsi:null="1"/>
 </a6:Exception>
 <a7:SLAPercentileRuleDef id="ref-29" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>03_Search_tickets_without_payment</FSubMsrName>
+<FGoalValue>58</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_03_Search_tickets_without_payment</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_03_Search_tickets_without_payment</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-30" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>28.992</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-31" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>28.992</m_RealValue>
+<m_GoalValue>58</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a6:Exception id="ref-32" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-33" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<FSubMsrName>04_Buy_ticket_without_check_itenerary</FSubMsrName>
+<FGoalValue>72</FGoalValue>
+<FPercentage>90</FPercentage>
+<m_RuleName>transaction_response_time_percentile_04_Buy_ticket_without_check_itenerary</m_RuleName>
+<m_RuleUIName>Transaction Response Time (Percentile)</m_RuleUIName>
+<m_Measurement>transaction_response_time_percentile</m_Measurement>
+<m_CalcDirection>greater_than_equal</m_CalcDirection>
+<SLARuleDef_x002B_m_RuleName>transaction_response_time_percentile_04_Buy_ticket_without_check_itenerary</SLARuleDef_x002B_m_RuleName>
+<SLARuleDef_x002B_m_RuleUIName>Transaction Response Time (Percentile)</SLARuleDef_x002B_m_RuleUIName>
+<SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
+<SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
+</a7:SLAPercentileRuleDef>
+<a7:SimpleRuleData id="ref-34" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>34.65699999</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-35" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>34.65699999</m_RealValue>
+<m_GoalValue>72</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a6:Exception id="ref-36" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-37" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>05_Check_itenerary</FSubMsrName>
 <FGoalValue>36</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -255,7 +287,15 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a6:Exception id="ref-30" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<a7:SimpleRuleData id="ref-38" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>18.471</m_RealValue>
+</a7:SimpleRuleData>
+<a7:SLASimpleRuleResult id="ref-39" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>18.471</m_RealValue>
+<m_GoalValue>36</m_GoalValue>
+</a7:SLASimpleRuleResult>
+<a6:Exception id="ref-40" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
 <ClassName>System.Exception</ClassName>
 <Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
 <Data xsi:null="1"/>
@@ -269,7 +309,7 @@
 <Source xsi:null="1"/>
 <WatsonBuckets xsi:null="1"/>
 </a6:Exception>
-<a7:SLAPercentileRuleDef id="ref-31" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLAPercentileRuleDef id="ref-41" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>Choose_flight</FSubMsrName>
 <FGoalValue>1</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -282,29 +322,15 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-32" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>0.206</m_RealValue>
+<a7:SimpleRuleData id="ref-42" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.17</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-33" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLASimpleRuleResult id="ref-43" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusOK</m_Status>
-<m_RealValue>0.206</m_RealValue>
+<m_RealValue>0.17</m_RealValue>
 <m_GoalValue>1</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a6:Exception id="ref-34" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
-<ClassName>System.Exception</ClassName>
-<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
-<Data xsi:null="1"/>
-<InnerException xsi:null="1"/>
-<HelpURL xsi:null="1"/>
-<StackTraceString xsi:null="1"/>
-<RemoteStackTraceString xsi:null="1"/>
-<RemoteStackIndex>0</RemoteStackIndex>
-<ExceptionMethod xsi:null="1"/>
-<HResult>-2146233088</HResult>
-<Source xsi:null="1"/>
-<WatsonBuckets xsi:null="1"/>
-</a6:Exception>
-<a7:SLAPercentileRuleDef id="ref-35" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLAPercentileRuleDef id="ref-44" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>Choose_reservation</FSubMsrName>
 <FGoalValue>1</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -317,29 +343,15 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-36" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>5.352</m_RealValue>
+<a7:SimpleRuleData id="ref-45" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.264</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-37" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>5.352</m_RealValue>
+<a7:SLASimpleRuleResult id="ref-46" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.264</m_RealValue>
 <m_GoalValue>1</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a6:Exception id="ref-38" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
-<ClassName>System.Exception</ClassName>
-<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
-<Data xsi:null="1"/>
-<InnerException xsi:null="1"/>
-<HelpURL xsi:null="1"/>
-<StackTraceString xsi:null="1"/>
-<RemoteStackTraceString xsi:null="1"/>
-<RemoteStackIndex>0</RemoteStackIndex>
-<ExceptionMethod xsi:null="1"/>
-<HResult>-2146233088</HResult>
-<Source xsi:null="1"/>
-<WatsonBuckets xsi:null="1"/>
-</a6:Exception>
-<a7:SLAPercentileRuleDef id="ref-39" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLAPercentileRuleDef id="ref-47" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>Find_flight</FSubMsrName>
 <FGoalValue>1</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -352,29 +364,15 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-40" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>5.413</m_RealValue>
+<a7:SimpleRuleData id="ref-48" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.243</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-41" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>5.413</m_RealValue>
+<a7:SLASimpleRuleResult id="ref-49" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.243</m_RealValue>
 <m_GoalValue>1</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a6:Exception id="ref-42" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
-<ClassName>System.Exception</ClassName>
-<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
-<Data xsi:null="1"/>
-<InnerException xsi:null="1"/>
-<HelpURL xsi:null="1"/>
-<StackTraceString xsi:null="1"/>
-<RemoteStackTraceString xsi:null="1"/>
-<RemoteStackIndex>0</RemoteStackIndex>
-<ExceptionMethod xsi:null="1"/>
-<HResult>-2146233088</HResult>
-<Source xsi:null="1"/>
-<WatsonBuckets xsi:null="1"/>
-</a6:Exception>
-<a7:SLAPercentileRuleDef id="ref-43" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLAPercentileRuleDef id="ref-50" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>Flights_click</FSubMsrName>
 <FGoalValue>1</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -387,29 +385,15 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-44" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>16.209</m_RealValue>
+<a7:SimpleRuleData id="ref-51" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>1.453</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-45" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLASimpleRuleResult id="ref-52" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusFail</m_Status>
-<m_RealValue>16.209</m_RealValue>
+<m_RealValue>1.453</m_RealValue>
 <m_GoalValue>1</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a6:Exception id="ref-46" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
-<ClassName>System.Exception</ClassName>
-<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
-<Data xsi:null="1"/>
-<InnerException xsi:null="1"/>
-<HelpURL xsi:null="1"/>
-<StackTraceString xsi:null="1"/>
-<RemoteStackTraceString xsi:null="1"/>
-<RemoteStackIndex>0</RemoteStackIndex>
-<ExceptionMethod xsi:null="1"/>
-<HResult>-2146233088</HResult>
-<Source xsi:null="1"/>
-<WatsonBuckets xsi:null="1"/>
-</a6:Exception>
-<a7:SLAPercentileRuleDef id="ref-47" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLAPercentileRuleDef id="ref-53" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>Insert_payment_details</FSubMsrName>
 <FGoalValue>1</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -422,29 +406,15 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-48" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>5.58</m_RealValue>
+<a7:SimpleRuleData id="ref-54" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.738</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-49" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>5.58</m_RealValue>
+<a7:SLASimpleRuleResult id="ref-55" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.738</m_RealValue>
 <m_GoalValue>1</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a6:Exception id="ref-50" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
-<ClassName>System.Exception</ClassName>
-<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
-<Data xsi:null="1"/>
-<InnerException xsi:null="1"/>
-<HelpURL xsi:null="1"/>
-<StackTraceString xsi:null="1"/>
-<RemoteStackTraceString xsi:null="1"/>
-<RemoteStackIndex>0</RemoteStackIndex>
-<ExceptionMethod xsi:null="1"/>
-<HResult>-2146233088</HResult>
-<Source xsi:null="1"/>
-<WatsonBuckets xsi:null="1"/>
-</a6:Exception>
-<a7:SLAPercentileRuleDef id="ref-51" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLAPercentileRuleDef id="ref-56" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>Itenerary_click</FSubMsrName>
 <FGoalValue>1</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -457,29 +427,15 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-52" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>16.236</m_RealValue>
+<a7:SimpleRuleData id="ref-57" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>1.06</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-53" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLASimpleRuleResult id="ref-58" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusFail</m_Status>
-<m_RealValue>16.236</m_RealValue>
+<m_RealValue>1.06</m_RealValue>
 <m_GoalValue>1</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a6:Exception id="ref-54" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
-<ClassName>System.Exception</ClassName>
-<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
-<Data xsi:null="1"/>
-<InnerException xsi:null="1"/>
-<HelpURL xsi:null="1"/>
-<StackTraceString xsi:null="1"/>
-<RemoteStackTraceString xsi:null="1"/>
-<RemoteStackIndex>0</RemoteStackIndex>
-<ExceptionMethod xsi:null="1"/>
-<HResult>-2146233088</HResult>
-<Source xsi:null="1"/>
-<WatsonBuckets xsi:null="1"/>
-</a6:Exception>
-<a7:SLAPercentileRuleDef id="ref-55" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLAPercentileRuleDef id="ref-59" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>Login</FSubMsrName>
 <FGoalValue>1</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -492,29 +448,15 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-56" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>16.317</m_RealValue>
+<a7:SimpleRuleData id="ref-60" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>1.192</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-57" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLASimpleRuleResult id="ref-61" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusFail</m_Status>
-<m_RealValue>16.317</m_RealValue>
+<m_RealValue>1.192</m_RealValue>
 <m_GoalValue>1</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a6:Exception id="ref-58" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
-<ClassName>System.Exception</ClassName>
-<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
-<Data xsi:null="1"/>
-<InnerException xsi:null="1"/>
-<HelpURL xsi:null="1"/>
-<StackTraceString xsi:null="1"/>
-<RemoteStackTraceString xsi:null="1"/>
-<RemoteStackIndex>0</RemoteStackIndex>
-<ExceptionMethod xsi:null="1"/>
-<HResult>-2146233088</HResult>
-<Source xsi:null="1"/>
-<WatsonBuckets xsi:null="1"/>
-</a6:Exception>
-<a7:SLAPercentileRuleDef id="ref-59" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLAPercentileRuleDef id="ref-62" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>Logout</FSubMsrName>
 <FGoalValue>1</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -527,27 +469,13 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-60" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>10.534</m_RealValue>
+<a7:SimpleRuleData id="ref-63" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>0.833</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-61" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>10.534</m_RealValue>
+<a7:SLASimpleRuleResult id="ref-64" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.833</m_RealValue>
 <m_GoalValue>1</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a6:Exception id="ref-62" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
-<ClassName>System.Exception</ClassName>
-<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
-<Data xsi:null="1"/>
-<InnerException xsi:null="1"/>
-<HelpURL xsi:null="1"/>
-<StackTraceString xsi:null="1"/>
-<RemoteStackTraceString xsi:null="1"/>
-<RemoteStackIndex>0</RemoteStackIndex>
-<ExceptionMethod xsi:null="1"/>
-<HResult>-2146233088</HResult>
-<Source xsi:null="1"/>
-<WatsonBuckets xsi:null="1"/>
-</a6:Exception>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

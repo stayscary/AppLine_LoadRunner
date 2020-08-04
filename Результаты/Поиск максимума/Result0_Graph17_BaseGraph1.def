@@ -10,7 +10,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T392364218T
+TableName=T410413879T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -73,8 +73,8 @@ EqualFlag=1
 DimensionTableName=Event_meter
 NumValues=1
 DimCount=2
-Dim_0=0.000000
-Dim_1=6840.000000
+Dim_0=2760.000000
+Dim_1=3960.000000
 
 [DimensionFunctions]
 DimeFuncCount=0
